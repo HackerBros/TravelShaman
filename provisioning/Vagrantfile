@@ -68,18 +68,10 @@ Vagrant::Config.run do |config|
   # some recipes and/or roles.
   #
   config.vm.provision :chef_solo do |chef|
+    chef.roles_path = ["roles"]
     chef.cookbooks_path = ["."]
-    chef.add_recipe "nodejs"
-    chef.add_recipe "redisio::install"
-    chef.add_recipe "redisio::enable"
+    chef.add_role "nodeapp"
 
-    #chef.json = {
-    #    :redisio => {
-    #        'servers' => [
-    #            {'name' => 'master', 'port' => '6379', 'unixsocket' => '/tmp/redis.sock', 'unixsocketperm' => '755'},
-    #        ]
-    #    }
-    #}
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,

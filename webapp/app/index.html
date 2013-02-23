@@ -51,6 +51,7 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+
     
     <!-- build:js scripts/plugins.js -->
     <script src="scripts/vendor/bootstrap/bootstrap-affix.js"></script>
@@ -71,5 +72,16 @@
     <!-- build:js scripts/amd-app.js -->
     <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
     <!-- endbuild -->
+
+    <!-- build:js scripts/backbone.js -->
+    <script src="scripts/vendor/lodash.min.js"></script>
+    <script src="scripts/vendor/backbone-min.js"></script>
+    <script src="scripts/views/application-view.js"></script>
+    <script src="scripts/models/application-model.js"></script>
+    <script src="scripts/collections/application-collection.js"></script>
+    <script src="scripts/routes/application-router.js"></script>
+    <!-- endbuild -->
+        
+
 </body>
 </html>

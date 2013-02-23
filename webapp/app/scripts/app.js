@@ -1,3 +1,7 @@
 define([], function() {
-  return 'Hello from Yeoman!';
+
+	$(document).ready(function(){
+		webapp.init();
+	});
+	return 'Hello from Yeoman!';
 });

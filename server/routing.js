@@ -2,7 +2,7 @@
  * Routing
  */
 
-module.exports = function Routing (redis, hashring, http) {
+module.exports = function Routing (redis, http) {
 
 	var _self = this;
 	/**

@@ -1,0 +1,6 @@
+[submodule "provisioning/redisio"]
+	path = provisioning/redisio
+	url = git://github.com/brianbianco/redisio.git
+[submodule "provisioning/nodejs"]
+	path = provisioning/nodejs
+	url = git://github.com/mdxp/nodejs-cookbook.git

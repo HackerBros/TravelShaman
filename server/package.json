@@ -1,0 +1,16 @@
+{
+  "author": "Hacker Bros.",
+  "name": "TravelShaman",
+  "description": "Local recommendations for travelers.",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "redis":"*",
+    "express":"*"
+},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

@@ -4,3 +4,9 @@
 [submodule "provisioning/nodejs"]
 	path = provisioning/nodejs
 	url = git://github.com/mdxp/nodejs-cookbook.git
+[submodule "provisioning/apt"]
+	path = provisioning/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "provisioning/build-essential"]
+	path = provisioning/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git

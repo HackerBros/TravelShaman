@@ -5,7 +5,7 @@ window.webapp = {
   Views: {},
   Routers: {},
   init: function() {
-    console.log('Hello from Backbone!');
+    console.log('Hello from Backboneeee!');
   }
 };
 

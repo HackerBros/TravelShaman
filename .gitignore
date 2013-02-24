@@ -2,3 +2,4 @@
 .vagrant
 /server/node_modules
 /db
+/.sass-cache

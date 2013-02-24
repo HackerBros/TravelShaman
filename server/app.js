@@ -23,6 +23,10 @@ app.get('/get/:key', routing.getKey);
 app.post('/set', routing.setKey);
 app.get('/_get/:key', routing._getKey);
 app.get('/_set/:key/value/:value', routing._setKey);
+app.get('/poop'), function (req, res) {
+	res.send("ooohhh u poooped");
+} );
+
 
 var PORT1 = process.argv[2];
 app.listen(PORT1 || 8080);
